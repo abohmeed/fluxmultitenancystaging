@@ -1,13 +1,4 @@
 ---
-apiVersion: v1
-data:
-  .dockerconfigjson: eyJhdXRocyI6eyJyZWdpc3RyeS5naXRsYWIuY29tIjp7InVzZXJuYW1lIjoiYWJvaG1lZWRAZ21haWwuY29tIiwicGFzc3dvcmQiOiJnbHBhdC1LQS04emRlNXV4MVl5bnk5eUhWVSIsImF1dGgiOiJZV0p2YUcxbFpXUkFaMjFoYVd3dVkyOXRPbWRzY0dGMExVdEJMVGg2WkdVMWRYZ3hXWGx1ZVRsNVNGWlYifX19
-kind: Secret
-metadata:
-  name: gitlab-auth
-  namespace: apps
-type: kubernetes.io/dockerconfigjson
----
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
@@ -19,6 +10,7 @@ spec:
     branch: main
   secretRef:
     name: gitlab-auth
+    namespace: flux-system
   url: ssh://abohmeed@gitlab.com/weatherapp
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
