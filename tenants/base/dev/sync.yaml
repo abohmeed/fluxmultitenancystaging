@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: gitlab-auth
-  url: ssh://abohmeed@gitlab.com/weatherapp
+  url: git@gitlab.com:abohmeed/weatherapp.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
