@@ -1,5 +1,4 @@
 ---
----
 apiVersion: v1
 data:
   .dockerconfigjson: eyJhdXRocyI6eyJyZWdpc3RyeS5naXRsYWIuY29tIjp7InVzZXJuYW1lIjoiYWJvaG1lZWRAZ21haWwuY29tIiwicGFzc3dvcmQiOiJnbHBhdC1LQS04emRlNXV4MVl5bnk5eUhWVSIsImF1dGgiOiJZV0p2YUcxbFpXUkFaMjFoYVd3dVkyOXRPbWRzY0dGMExVdEJMVGg2WkdVMWRYZ3hXWGx1ZVRsNVNGWlYifX19
