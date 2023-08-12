@@ -16,7 +16,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: gitlab
-  namespace: default
+  namespace: apps
 spec:
   type: oci
   interval: 5m0s
