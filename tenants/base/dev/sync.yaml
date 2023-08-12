@@ -10,7 +10,6 @@ spec:
     branch: main
   secretRef:
     name: gitlab-auth
-    namespace: flux-system
   url: ssh://abohmeed@gitlab.com/weatherapp
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
