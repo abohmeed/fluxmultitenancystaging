@@ -1,4 +1,20 @@
 ---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: gitlab-auth
+  namespace: apps
+spec:
+  encryptedData:
+    password: AgCZ+DCLgHG3MVCME6fzGpC5YEbft4WyyfgBsrUaSu/PEUG5VGv3/J3CST3741Npr18SuftaBTLd/DNJ0t2ynOd8Q2a6QoqIffTv4/uiJ4Kvfk3iLESDmhRt9br+WwdznHIuAl6Xa+A4LNS0HSyLTBcRTfkxAVJogJTRXCl4i0g5CHXdOlI4lRkVp0tr1/pybi3qgi9tsppHXRn81PtKie2nu7pbl/3OJdSxgN/ZU0Rl96iFjc9lCXnM2+mY2UDMoHNKpNS+O/0alDtTuZBEudzoTT1PZRMQX4lK0LaGYxTB9Z0EmemPMZl7BakA0x0MYqDKGxe2j94Mpszzk7BAMYRuov1DHT3Z1K//PfuMxIdo5kZjBllqNwQ5QRuCHbrZLXUt1g/5RoS4qIirR/fz7qD2Trl6EMxkymv7EODBjziS5hSiNP/OYrDge+C/fs3fm2+NxJVepgbKWeSH14IkhyWPKkw76HGEV+pjZmWZ58Ljv44+KSmpviC7qpd3DzgWP2OgPcICAFRKCrf1iN5pc+SLjXVelibCPykOF/G6LOnIduot81ed7GFIzKvjbKG02ZrSyoUt4WdaARqRLmenRJQXqLX90zWdjMQl2/D15NE5GvFW3gJNzIbdS+owlRpPFo0GSzJ6TdwunktIjZNbsE0ilZtsef9pEg4CHZ1C7zGthE4pL0rd1oiDFgSPvex5US3ntuR8Q8zKhfIbfvpLhPdA/WIRusE6q4S+lw==
+    username: AgAfrdPgmbjGii3E6J4v9Az8At61HjjBXwC4IMhEvpwu/v3qakr5yz4byjERYxbGWzMoQEEjaaS1BCzE5kQrMYEf2u5T6QBbzboSzdapbGg60N1Hnc0lzgJ09NH8tFO1NJaYkAin2l+T+ltClnrRNBvtTlHcBlsoLIjY3e+jDLxQffAzGNzGrwsAIxSbCOqy4vJ1qjK7mdiPab5Bu09BPFkAFI9qqzbx1nsU7GbVpaj5bOy3/Ko3C/p68Y5HIlwbfMsFolnTtboRx428X/o8CRAZysLUiNcKVCHXQPEmiYy3774vcL1HQ9PBmkh7qy3F2nA9JruBauawlzBdR9cHJAZKPipDWAALQzcQpnCA2NrSxAc5LaBnOadyGWWF3JLiW4OFLpxz1+ExW/E8CSbGiiwsEYCCApV8fQTx0FpoGqLq13sopUa07wgQvHE4wKfjqZ+X0Y7M4Ahf8nOW5MwU+jTWsbfWlCIE6+b8oI6sTi5zxzuDuRzpU6ollywVQY66Sb0JHczoUxuG3tK/BOZ8GHLsMHGspTwuyiGf58Aqhe2RkLhwbTM2LStNrvjj52LD5JFprmv/mT6R5VkVOAOH2glhRI3+ap6aq1eTnHImpwRWR9QUXbgomGxorNGMhJcrBbBHeyplxE71929+mVfrRRY8xD09vR/+dVSou/Uk909lsS0wI5pjbWXH5xzUyufHW/UNfk/Vt/MmZciowlmS/QFi8Po=
+  template:
+    metadata:
+      creationTimestamp: null
+      name: gitlab-auth
+      namespace: apps
+---
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
