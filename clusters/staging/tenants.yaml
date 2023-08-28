@@ -4,6 +4,10 @@ metadata:
   name: tenants
   namespace: flux-system
 spec:
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-gpg
   interval: 5m
   serviceAccountName: kustomize-controller
   sourceRef:
