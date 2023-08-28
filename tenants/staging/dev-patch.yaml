@@ -5,7 +5,3 @@ metadata:
   namespace: apps
 spec:
   path: ./kustomize/staging
-  decryption:
-    provider: sops
-    secretRef:
-      name: sops-gpg

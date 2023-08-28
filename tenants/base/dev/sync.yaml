@@ -50,6 +50,10 @@ metadata:
   name: dev
   namespace: apps
 spec:
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-gpg
   interval: 1m0s
   path: ./
   prune: false
