@@ -48,16 +48,37 @@ metadata:
     name: gitlab-auth
     namespace: apps
 stringData:
-    password: ENC[AES256_GCM,data:TGLFqIk5KBL2uNW/TZHQhYnzW8SzGclgLTI=,iv:9on3vhRQBS/caGrKmh9anwMFZE/RjgBeCL9+1tNEj4A=,tag:PBuXpgik45FHpb1Ga2gqhA==,type:str]
-    username: ENC[AES256_GCM,data:qSWJtK4oLmkq6vXNFUvTd5+u,iv:ZZRXLXS5vQ5zMcZdSFH4TJNJxHPUg5DTSdB9I0x4uI8=,tag:poSQQ45wKn3Cmg0qWOnEwg==,type:str]
+    password: ENC[AES256_GCM,data:NyRgZmWhA+p9sCnL6j8WTKuuECkEhSx2K28=,iv:+8AVb7F9eGItKlpnpMGX35S5iSAGBRPEmaPEq2Ek0/M=,tag:rTnPozE2xF5lYHK6KMDM+g==,type:str]
+    username: ENC[AES256_GCM,data:Z//BWHLmjP2PvL2HiOGKLErR,iv:9jAtWIgXgUdjqjeXr7lCGB27IEq7W42osVG5RDoP4Yk=,tag:3fd6+Tdu0/p6KThyBQtz/Q==,type:str]
 sops:
     kms: []
     gcp_kms: []
     azure_kv: []
     hc_vault: []
     age: []
-    lastmodified: "2023-08-28T21:17:37Z"
-    mac: ENC[AES256_GCM,data:vA4OVLDZUFN3/qZ9DS65hWNSmJH23ETJdFKVXOAGRfjySVoJiw+KbEJx+tH1MyYG3iAg2qK9U2oPos9ZTca4jYCB2Mzn5LHRolQ3q7zy1t90yxPGFzvW5rji2Xe/uNOVJ8k6PsEhMvqtILeX+Z4764VMxcpnuwY0wgQD3ic5AoM=,iv:DYndZukseTC9/aV9IULsR8TgocaWKpljC1E2tWckNvY=,tag:OH9+ZipdipyCUBpcUy5IyQ==,type:str]
-    pgp: []
+    lastmodified: "2023-08-28T21:58:06Z"
+    mac: ENC[AES256_GCM,data:CCvYhK/qMTKkD32a1XJmxU0r3UksRitF+c7OnGQ57+vylJLPU3McKA51b3H2q2CO1+MWwT4iYYrctaOGLQSwjHahSRHhnzvrWCEYHd3hf92Kzq0fhetSjZmt+IsNVcEuxqHWo0Va8ZCgWDC/9R/TBDsq2iO4F19B2+Ztvp9xoLs=,iv:7smoiAMG7scGJjEpsDgsV/zW/AykoRZERJ/kVP+Q7a4=,tag:dbwQMizGmHGvOaDBEBk9CQ==,type:str]
+    pgp:
+        - created_at: "2023-08-28T21:58:05Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMA5l1N71aLET8AQ/9HUDlZjDknLhY6HGZ7Il78M047UTRWGnLj+Cn4TpABy1P
+            pKsjpipoeCJsEcjpxA+04L0Lb4d/TVPi8fBprepeanfBK9JhEXvfJrYBilvib03L
+            MrAYwhxqpP2fgL2wnTFmuwsu9fIPPVRlE4FzSLU+KFQsdiLZWIGE6JtXvmWWb+mu
+            4JHoOg1TMqNp+W+qfOxakZXsgtFUVGbrtjwAnxb5LENnurDDk0RTGOj+MKynS4ic
+            kI3/o8NOIXdrSULyyzz2PKjd8Tw1Ou2Lg+5PvofsE8Z4EUt78w6fFmBwY0hHS2D8
+            fxym9kvEZPzyeb04Hzk+qEewqbat7Dt0EjPEwKRvnVGS0VF4kxXQqu5CPdC2PG2D
+            L9Kb3gIZ/lp5LbHhvwfxyYxOMMlVQ2WfHYXdweL8yrJcQemZ7eK4LkghWH5dUOFe
+            Cm9uapZhgGG6PdnBjxM2JKEkvOdXH8LCpW8PBLqq47cetfqVk7wTsMMFiIed5k0D
+            y2A3l1WiQ6Y7DVDYo2qSSH1g0Rp7IGXMjbOsOG0tyzWyD6tLLd/KPgBoBQt/gWeD
+            +H6xbJ6XLqkHHCELIsDfaB6EdQ3S3md13dWbLRsoc4c5mVd5/eJS5MPaTD2oA8UV
+            yo05fpzYfndsw7+ZfCP4BZqsxs2J+n58iXYkGU/dG/j2+Wx15UcDs6CrEcCmf83U
+            aAEJAhCIg836+obrBMq85EgM7JKdPSOqAkAaI98RPtpO58cWV0c1sdFUn57SeKE3
+            iuWf3qIRhGMzwjoyEbv9mzhrsc0a+bk0GMWnH9+iDw65ZJhi7R6BjrOWfxORRt7G
+            eI+sHupZx9Gg
+            =GasV
+            -----END PGP MESSAGE-----
+          fp: 3AD2C89457C78C2E0D65C5755F12F988B9C91DD7
     encrypted_regex: ^(data|stringData)$
     version: 3.7.3
