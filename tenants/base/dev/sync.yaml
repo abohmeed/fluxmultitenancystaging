@@ -30,7 +30,7 @@ metadata:
   name: dev
   namespace: apps
 spec:
-  decryption:
+  decryptions:
     provider: sops
     secretRef:
       name: sops-age
