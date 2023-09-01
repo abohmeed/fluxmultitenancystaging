@@ -36,7 +36,7 @@ spec:
       name: sops-age
   interval: 1m0s
   path: ./
-  prune: false
+  prune: true
   serviceAccountName: dev
   sourceRef:
     kind: GitRepository
