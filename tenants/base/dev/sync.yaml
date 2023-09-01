@@ -30,10 +30,10 @@ metadata:
   name: dev
   namespace: apps
 spec:
-  #  decryption:
-  #  provider: sops
-  #  secretRef:
-  #    name: sops-age
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age
   interval: 1m0s
   path: ./
   prune: false
