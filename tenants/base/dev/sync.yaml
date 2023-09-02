@@ -20,7 +20,7 @@ metadata:
 spec:
   type: oci
   interval: 5m0s
-  url: oci://registry.gitlab.com/abohmeed/weatherapp
+  url: oci://registry.gitlab.com/abohmeed/weatherappstaging
   secretRef:
     name: gitlab-auth
 ---
