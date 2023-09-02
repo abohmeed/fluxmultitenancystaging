@@ -33,7 +33,7 @@ spec:
   decryption:
     provider: sops
     secretRef:
-      name: sops-age
+      name: sops-hcvault
   interval: 1m0s
   path: ./
   prune: true
