@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: gitlab-auth
-  url: https://gitlab.com/abohmeed/weatherapp.git
+  url: https://gitlab.com/abohmeed/weatherappstaging.git
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
